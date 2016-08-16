@@ -17,7 +17,7 @@ Requires:      inotify-tools
 
 %build
 ./configure \
-   --prefix=%{_prefix} \
+   --prefix=%{_prefix}
 make all
 
 %install
