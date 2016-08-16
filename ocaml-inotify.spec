@@ -21,7 +21,8 @@ Requires:      inotify-tools
 
 %build
 ./configure \
-   --prefix=%{_prefix}
+   --prefix=%{_prefix} \
+   --docdir=%{buildroot}/%{_prefix}/share/doc
 make all
 
 %install
