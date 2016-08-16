@@ -42,6 +42,14 @@ make install
 /usr/lib64/ocaml/inotify/inotify.cmxa
 /usr/lib64/ocaml/inotify/inotify.mli
 /usr/lib64/ocaml/inotify/inotify.cmx
+/usr/lib64/ocaml/inotify/inotify.annot
+/usr/lib64/ocaml/inotify/inotify.cmt
+/usr/lib64/ocaml/inotify/inotify.cmti
+/usr/lib64/ocaml/inotify/inotify.cmxs
+/usr/lib64/ocaml/inotify/libinotify_stubs.a
+/usr/lib64/ocaml/stublibs/dllinotify_stubs.so
+/usr/lib64/ocaml/stublibs/dllinotify_stubs.so.owner
+%doc /usr/share/doc/*
 
 %description
 OCAML bindings for inotify
