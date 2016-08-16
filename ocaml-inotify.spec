@@ -11,7 +11,9 @@ BuildRequires: ocaml
 BuildRequires: ocaml-findlib
 BuildRequires: ocaml-bytes
 BuildRequires: ocaml-ocamldoc
+BuildRequires: ocaml-lwt-devel
 BuildRequires: inotify-tools-devel
+BuildRequires: ocaml-lwt
 Requires:      inotify-tools
 
 %prep
