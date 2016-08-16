@@ -18,7 +18,6 @@ Requires:      inotify-tools
 %build
 ./configure \
    --prefix=%{_prefix} \
-   -disable-ldconf
 make all
 
 %install
