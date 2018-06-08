@@ -9,7 +9,7 @@ Source0:  https://github.com/whitequark/ocaml-inotify/archive/v%{version}.tar.gz
 
 BuildRequires: ocaml
 BuildRequires: ocaml-findlib
-BuildRequires: ocaml-bytes
+BuildRequires: ocaml-ocamlbuild
 BuildRequires: ocaml-ocamldoc
 BuildRequires: ocaml-lwt-devel
 BuildRequires: inotify-tools-devel
